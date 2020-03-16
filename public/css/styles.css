@@ -2,3 +2,11 @@ body {
     background-color: #CBE2F6;
     text-align: center;
 }
+
+nav a { /*links within "nav" container"*/
+    padding:15px;
+    padding-bottom: 4px;
+    font-size: 2em;
+    text-decoration: none; /* removes underline */
+    color:white; /* by default, links are blue */
+}

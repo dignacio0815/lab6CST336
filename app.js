@@ -13,7 +13,15 @@ app.get("/mercury", function(req, res) {
 })
 
 app.get("/venus", function(req, res) {
-    res.send("This will be Venus webpage")
+    res.render("venus.html");
+})
+
+app.get("/earth", function(req, res) {
+    res.render("earth.html");
+})
+
+app.get("/jupiter", function(req, res) {
+    res.render("jupiter.html");
 })
 
 
